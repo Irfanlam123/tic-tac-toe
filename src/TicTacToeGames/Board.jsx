@@ -41,7 +41,7 @@ const Board = () => {
 
   return (
     <div>
-      <div className="board-container">
+      <div className="m-15">
         {isWinner ? (
           <div>
             <h1>
@@ -52,7 +52,7 @@ const Board = () => {
         ) : (
           <div>
             <h4>Player {IsXTurn ? "X" : "O"} please move</h4>
-            <div className="board-row">
+            <div className="flex justify-evenly items-center">
               <Square onClick={() => handleClick(0)} value={state[0]} />
               <Square onClick={() => handleClick(1)} value={state[1]} />
               <Square onClick={() => handleClick(2)} value={state[2]} />

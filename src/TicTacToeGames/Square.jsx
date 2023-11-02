@@ -9,6 +9,7 @@ const Square = (props) => {
     ,justifyContent:'center',
     alignItems:'center',
     backgroundColor: "blue",fontSize:"80px",color:"red"
+    
 
     }}  
         className='square'>
