@@ -4,11 +4,11 @@ const Square = (props) => {
   return (
     <div 
     onClick={props.onClick}
-    style={{ border:"5px solid black", height:'100px' ,font:"bold"
+    style={{ border:"5px solid #d6a890", height:'100px' ,font:"bold"
     ,width:'100%',display:'flex'
     ,justifyContent:'center',
     alignItems:'center',
-    backgroundColor: "blue",fontSize:"80px",color:"red"
+    backgroundColor: "#9e192d",fontSize:"80px",color:"aqua"
     
 
     }}  
